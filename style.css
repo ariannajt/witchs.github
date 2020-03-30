@@ -1,0 +1,69 @@
+.parallax {
+  /* The image used */
+  background-image: url("header.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-black {
+	background-color: #171717;
+}
+
+.font {
+	font-family: 'Ropa Sans', sans-serif;
+
+}
+.nav-link {
+	color:red;
+}
+
+.nav-link:hover {
+	color: white;
+}
+
+h1 {
+	color: #c4c4c4;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top: 420px;
+}
+
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top: 200px;
+
+}
+
+.btn-primary {
+	background: black;
+	color: red;
+	border: black
+
+}
+.btn-primary:hover {
+	background:#292929;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+}
+.btn-xl {
+	padding: 1rem 2rem;
+	margin-top: 30px;
+}
